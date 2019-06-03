@@ -1,0 +1,76 @@
+.clientes{
+    margin-bottom: 2em;
+    padding-left: .8em;
+}
+.clientes__titulo{
+    font-weight: 400;
+    border-bottom: 1px solid rgba(yellow,.4);
+    margin-bottom: 0;
+}
+
+.clientes__nav{
+    width: 20%; 
+    height: 2em;
+    
+}
+.clientes__nav__item{
+    width: 50%;
+    height: 2em;
+    opacity: .7;
+    position: relative;
+}
+.clientes__nav__item:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.clientes__nav__item--prev{
+    background: green;
+    float: left;
+    
+}
+.clientes__nav__item--prev:before{
+    border-right: 6px solid #fff;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.clientes__nav__item--next{
+    background: yellow;
+    float: right;
+} 
+.clientes__nav__item--next:before{
+    border-left: 6px solid #fff;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+/* clientes */
+.cliente{
+    margin-bottom: 2em;
+}
+.cliente__img{
+    display: block;
+    margin: auto;
+
+}
+.cliente__title{
+    margin: .5em 0 .5em;
+    font-size: 1.1em;
+    text-align: center;
+}
+.cliente__description{
+    font-size: .85em;
+    text-align: center;
+}
+/* Cuadriculo 2*2 */
+/* #clientes .grupo{
+
+} */

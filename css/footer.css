@@ -1,0 +1,34 @@
+#footer{
+    background: green;
+    color: #fff;
+    font-size: .8em;
+    padding: 1em 0;
+}
+.creditos{
+    margin-bottom: 0;
+    text-align: center;
+}
+.sociales{
+    text-align: center;
+
+}
+.sociales__item{
+    color: #fff;
+    font-size: 1.2em;
+    color: green;
+    background: rgb(23, 53, 23);
+     
+    display: inline-block;
+    margin: .3em;
+    border-radius: 60%;
+    padding: .3em;
+    transition: all .3s;
+}
+.sociales__item:hover{
+    color: #fff;
+}
+
+/* footer tamaño mediano */
+
+
+/* fontello o fontasti */

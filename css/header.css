@@ -1,0 +1,28 @@
+#header{
+    background: rgb(42, 102, 40, .8);
+    color: #fff;
+}
+#header .grupo{
+max-width:960px ;
+margin: auto;
+}
+
+.logo{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2em;
+    color: #fff;    
+    font-family: 'Open Sans';
+}
+.logo span{
+    font-weight: 300;
+    text-transform: none;
+}
+.subtitle{
+    font-family: serif;/*cambiar*/
+    font-weight: 300;
+    opacity: .7;
+    text-align: center;
+    letter-spacing: -0.04em;
+}

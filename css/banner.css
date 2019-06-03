@@ -1,0 +1,39 @@
+.banner{
+    
+    margin-top: 1em;
+}
+.banner img{
+   
+    max-width:100%;
+    padding: 1em;
+
+}
+.copy{
+    margin: 0;
+    padding-left: .5em;
+}
+.copy__title{
+    color: yellow;
+    font-weight: 600;
+    margin: .5em 0 .5em;
+    text-transform: uppercase;
+}
+.copy__title span{
+    font-weight: 300;
+    text-transform: none;
+}
+.copy__description{
+    font-size: .90em;
+}
+.copy__button{
+    color: #fff;
+    background: rgb(17, 54, 13);
+    line-height: 2;
+    display: inline-block;
+    border-radius: 3px;
+    margin: .5em 0;
+    padding: 0 1em;
+}
+.copy__button:hover{
+    color: yellow;
+}

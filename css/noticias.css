@@ -1,0 +1,23 @@
+
+.noticia__img{
+    margin-bottom: 1em;
+    padding-left: .8em;
+    display: block;
+    margin: 0 auto 1em
+}
+.noticia__title{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.noticia__title span{
+    display: block;
+    font-family: serif;/*definir*/
+    font-size: .8em;
+    line-height: 1;
+    font-weight: 300;
+}
+.noticia__description{
+    font-size: .85em;
+    text-align: center;
+}

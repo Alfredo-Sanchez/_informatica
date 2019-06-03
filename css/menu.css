@@ -1,0 +1,82 @@
+#mostrar-menu{
+    background:rgba(42, 102, 40, .8);
+    padding-left: 1em;
+    line-height: 2;
+    cursor: pointer;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+     
+}
+/* DESDE DESKTOP */
+
+@media (min-width:768px){
+   
+    .logo{
+     text-align: left;
+     line-height: 1;
+     margin-top: .5em;
+    }
+    .subtitle{
+        line-height: 1;
+        text-align: left;
+    }
+
+    #mostrar-menu{
+        display: none;
+    }
+    .menu{
+        display: table;
+        float: right;
+    }
+   
+    .menu__item{
+        list-style: none;
+        text-decoration: none;
+        float: left;
+        margin-top: 1.5em;
+        margin-right: 0;
+    }
+    .menu__link{
+        text-decoration: none;
+        padding: 0 1em  ;
+        /* float: left; */
+        color: #fff;
+        border-right: 1px solid #fff;
+        opacity: .6;
+    }
+    .menu__link:hover{
+        text-decoration: none;
+        color: #fff;
+        border-right: 1px solid #fff;
+        opacity: 1;
+    }
+ }
+
+ /* HASTA TABLET */
+ @media(max-width:768px){
+     .menu{
+         display: none;
+         background-color: rgb(203, 206, 37);
+     }
+     .nav-item{
+        list-style: none;
+        display: block;
+       }
+
+     .menu__link{
+        color:rgba(42, 102, 40, .6);
+        line-height: 2;
+        padding-left: 1em;
+        text-decoration: none;
+    }
+    .menu__link:hover{
+        text-decoration: none;
+        text-decoration: none;
+        color: rgba(42, 102, 40, .9);
+    }
+}
+ 
+

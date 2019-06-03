@@ -1,0 +1,40 @@
+section{
+    padding: 1.5em 0;
+}
+/* MODULO */
+.section-title{
+    text-align: center;
+    font-weight: 300;
+    font-family: serif; /*'Open sans'*/
+    margin: 0 0 1.5em;
+}
+.section-title span{
+    display: block;
+    font-size: .7em;
+}
+/* SERVICIOS */
+.servicio{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.servicio__img{
+    width: 15%;
+    background-repeat: 50%;
+}
+.servicio .icono{
+    width: 15%;
+    height: 15%;
+    color: #ccc;
+    font-size: 4em;
+    border-radius: 50%;
+}
+.servicio .icono:hover{
+    color: green;
+}
+.servicio__title{
+    margin: .3em 0; 
+}
+.servicio__description{
+    font-size: .85em;
+
+}
