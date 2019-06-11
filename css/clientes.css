@@ -59,6 +59,8 @@
 .cliente__img{
     display: block;
     margin: auto;
+    padding-left: 1em;
+    width: 250px;
 
 }
 .cliente__title{
